@@ -8,11 +8,11 @@ let alarm = new Audio('alarm.mp3');
     function starte() {
       if (start == false) {
         start = true;
-        button.src = '/images/stop.png';
+        button.src = 'images/stop.png';
         startTimer();
       } else {
         start = false;
-        button.src = '/images/start.png';
+        button.src = 'images/start.png';
         stopTimer();
       }
 

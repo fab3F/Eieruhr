@@ -6,7 +6,7 @@
 
 
 # Eieruhr
-Auf der Seite [https://fab3F.github.io/Eieruhr](https://fab3F.github.io/Eieruhr) kannst du eine ganz simple Eieruhr benutzen und auch herunterladen!
+Auf der Seite [https://fab3F.github.io/eieruhr](https://fab3F.github.io/eieruhr) kannst du eine ganz simple Eieruhr benutzen und auch herunterladen!
 Schau gerne auch bei den anderen Projekten und bei der [EasyFlick Homepage](https://easyflick.us.to) vorbei!
 
 

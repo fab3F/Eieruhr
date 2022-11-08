@@ -39,6 +39,7 @@ let alarm = new Audio('alarm.mp3');
               alarm.play();
               timer.innerHTML = '05 : 00';
               start = false;
+              button.src = 'images/start.png';
               clearInterval(interval);
             }
           }

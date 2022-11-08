@@ -5,8 +5,8 @@
     "background_color": "#262626",
     "display": "fullscreen",
     "orientation": "portrait",
-    "scope": "https://fab3F.github.io/Eieruhr/",
-    "start_url": "https://fab3F.github.io/Eieruhr/",
+    "scope": "https://fab3F.github.io/eieruhr/",
+    "start_url": "https://fab3F.github.io/eieruhr/index.html",
     "icons": [
         {
           "src": "images/icons/icon-72x72.png",

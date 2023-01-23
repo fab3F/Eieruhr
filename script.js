@@ -8,11 +8,11 @@ let alarm = new Audio('alarm.mp3');
     function starte() {
       if (start == false) {
         start = true;
-        button.src = 'images/stop.png';
+        button.src = '/images/stop.png';
         startTimer();
       } else {
         start = false;
-        button.src = 'images/start.png';
+        button.src = '/images/start.png';
         stopTimer();
       }
 
@@ -39,7 +39,7 @@ let alarm = new Audio('alarm.mp3');
               alarm.play();
               timer.innerHTML = '05 : 00';
               start = false;
-              button.src = 'images/start.png';
+              button.src = '/images/start.png';
               clearInterval(interval);
             }
           }

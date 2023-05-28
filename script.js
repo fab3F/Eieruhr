@@ -23,8 +23,10 @@ let alarm = new Audio('alarm.mp3');
       let fiveMinutes = 1000 * 60 * 5;
       let endTime = startTime + fiveMinutes;
     
-      interval = setInterval(function() {
-        let timeLeft = endTime - new Date().getTime();
+      let updateTimer = function() {
+        let currentTime = new Date().getTime();
+        let timeLeft = endTime - currentTime;
+    
         if (timeLeft > 0) {
           let minutes = Math.floor(timeLeft / (1000 * 60));
           let seconds = Math.floor((timeLeft / 1000) % 60);
@@ -32,7 +34,7 @@ let alarm = new Audio('alarm.mp3');
           let text = ('0' + minutes).slice(-2) + ' : ' + seconds;
           timer.innerHTML = text;
         } else {
-          if (start = true) {
+          if (start === true) {
             alarm.play();
             timer.innerHTML = '05 : 00';
             start = false;
@@ -40,7 +42,10 @@ let alarm = new Audio('alarm.mp3');
             clearInterval(interval);
           }
         }
-      }, 1000);
+      };
+    
+      updateTimer();
+      interval = setInterval(updateTimer, 500);
     }
     
     
